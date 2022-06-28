@@ -15,7 +15,8 @@
   <body>
     <!-- Header section -->
     <header class="header">
-      <nav>
+      <div class="container header-container">
+      <nav class="nav">
         <div class="header-logo">
           <a class="logo" href="./index.html">
             <span class="web">Web</span>Studio
@@ -23,174 +24,175 @@
         </div>
 
         <ul class="header-nav">
-          <li><a class="header-nav-link" href="./index.html">Студия</a></li>
-          <li>
+          <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Студия</a></li>
+          <li class="header-nav-item">
             <a class="header-nav-link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li><a class="header-nav-link" href="./index.html">Контакты</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
+      <ul class="header-cont">
+        <li  class="header-cont-list">
           <a class="header-contacts" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li>
-          <a class="header-contacts" href="tel:+380961111111"
+        <li class="header-cont-list">
+          <a class="header-contacts header-cont-tel" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
       <!--Portfolio section-->
-      <section>
-        <h1 class="projects">Примеры проектов</h1>
-        <ul>
-          <li>
+      <section class="portfolio-section section">
+        <div class="container portfolio-container">
+        <h1 class="projects projects-title">Примеры проектов</h1>
+        <ul class="porfolio-btn-list">
+          <li class="porfolio-btn-item"> 
             <button class="portfolio-btn buttons" type="button">Все</button>
           </li>
-          <li>
+          <li class="porfolio-btn-item">
             <button class="portfolio-btn buttons" type="button">
               Веб-сайты
             </button>
           </li>
-          <li>
+          <li class="porfolio-btn-item">
             <button class="portfolio-btn buttons" type="button">
               Приложения
             </button>
           </li>
-          <li>
+          <li class="porfolio-btn-item">
             <button class="portfolio-btn buttons" type="button">Дизайн</button>
           </li>
-          <li>
+          <li class="porfolio-btn-item">
             <button class="portfolio-btn buttons" type="button">
               Маркетинг
             </button>
           </li>
         </ul>
 
-        <ul>
-          <li>
-            <img
+        <ul class="portfolio-project-list">
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project1.jpg"
               alt="Визуализация проeкта 1"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Технокряк</h2>
+            <h2 class="project-list-title">Технокряк</h2>
             <p class="filter">Веб-сайт</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project2.jpg"
               alt="Визуализация проeкта 2"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Постер New Orlean vs Golden Star</h2>
+            <h2 class="project-list-title">Постер New Orlean vs Golden Star</h2>
             <p class="filter">Дизайн</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project3.jpg"
               alt="Визуализация проeкта 3"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Ресторан Seafood</h2>
+            <h2 class="project-list-title">Ресторан Seafood</h2>
             <p class="filter">Приложение</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project4.jpg"
               alt="Визуализация проeкта 4"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Проект Prime</h2>
+            <h2 class="project-list-title">Проект Prime</h2>
             <p class="filter">Маркетинг</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project5.jpg"
               alt="Визуализация проeкта 5"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Проект Boxes</h2>
+            <h2 class="project-list-title">Проект Boxes</h2>
             <p class="filter">Приложение</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project6.jpg"
               alt="Визуализация проeкта 6"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Inspiration has no Borders</h2>
+            <h2 class="project-list-title">Inspiration has no Borders</h2>
             <p class="filter">Веб-сайт</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project7.jpg"
               alt="Визуализация проeкта 7"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Издание Limited Edition</h2>
+            <h2 class="project-list-title">Издание Limited Edition</h2>
             <p class="filter">Дизайн</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project8.jpg"
               alt="Визуализация проeкта 8"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Проект LAB</h2>
+            <h2 class="project-list-title">Проект LAB</h2>
             <p class="filter">Маркетинг</p>
           </li>
-          <li>
-            <img
+          <li class="pf-projects-box">
+            <img class="pf-projects-img"
               src="./images/project9.jpg"
               alt="Визуализация проeкта 9"
               width="370"
               height="304"
             />
-            <h2 class="project-list">Growing Business</h2>
+            <h2 class="project-list-title">Growing Business</h2>
             <p class="filter">Приложение</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
-    <!--Footer section-->
-    <footer class="footer">
-      <a class="logo" href="./index.html">
-        <span class="web">Web</span><span class="studio">Studio</span>
-      </a>
-
-      <address>
+   <!--Footer section-->
+   <footer class="footer-section section">
+    <div class="container footer-container">
+    <a class="logo footer-logo" href="./index.html">
+      <span class="web">Web</span><span class="studio">Studio</span>
+    </a>
+  
+    
+    <address class="footer-address">
         <a
-          class="footer-adress"
-          href="посилання на google map"
-          target="_blank"
-          rel="noopener noreferrer"
-          >г.Киев, пр-т Леси Украинки, 26</a
-        >
+        class="footer-adress-label" href="посилання на google map" target="_blank" rel="noopener noreferrer"
+        >г.Киев, пр-т Леси Украинки, 26</a>
         <br />
-        <a class="footer-link" href="mailto:info@devstudio.com"
+        <a class="footer-link footer-mail" href="mailto:info@devstudio.com"
           >info@devstudio.com</a
         ><br />
-        <li>
-          <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
+        <a class="footer-link footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
         ><br />
-      </address>
-    </footer>
+      
+    </address>
+  </div>
+  </footer>
   </body>
 </html>
