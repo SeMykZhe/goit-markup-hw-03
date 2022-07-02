@@ -7,7 +7,10 @@
   --secondary-txt-cl: ##757575;
   --accent-txt-cl: #2196f3;
   --light-txt-cl: #ffffff;
+  --header-border-bottom: #ECECEC;
   /* Background colors */
+  --bg-color-white #ffffff;
+}
 }
 
 /*Base styles*/
@@ -34,6 +37,7 @@ ul {
 /* p:last-child {
   margin-bottom: 0;
 } */
+
 
 .section {
   padding-bottom: 94px;
@@ -77,6 +81,14 @@ li {
 /*Header section*/
 
 /*.header*/
+
+.header {
+
+  width: 100%;
+  border-bottom: 1px solid var(--header-border-bottom);
+
+  background-color: var(--bg-color-white);
+}
 
 .header-container {
   display: flex;
@@ -214,7 +226,7 @@ li {
 /*Features section*/
 
 .features-section {
-  padding-top: 94px;
+  margin-top: 94px;
 }
 
 .features-container {
@@ -363,7 +375,10 @@ li {
   border-width: 1px;
   border-style: none none solid none;
   border-color: #ffffff #ffffff #ececec #ffffff;
+
+  
 }
+
 
 /*Portfolio section*/
 
@@ -490,7 +505,7 @@ li {
 
 .footer-section {
   padding-top: 60px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .footer-container {
@@ -504,7 +519,7 @@ li {
 
 .footer-logo {
   display: flex;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /*  .web {}
@@ -513,7 +528,7 @@ li {
 
 .footer-adress-label {
   display: flex;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 /*.footer-link {
@@ -521,7 +536,7 @@ li {
 
 .footer-mail {
   display: flex;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 /*
