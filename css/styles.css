@@ -11,7 +11,7 @@
   /* Background colors */
   --bg-color-white #ffffff;
 }
-}
+
 
 /*Base styles*/
 body {
@@ -226,10 +226,10 @@ li {
 /*Features section*/
 
 .features-section {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
-.features-container {
+  .features-container {
   display: flex;
   align-items: center;
   width: 1200px;
@@ -505,7 +505,7 @@ li {
 
 .footer-section {
   padding-top: 60px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
